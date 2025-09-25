@@ -50,9 +50,6 @@ print(ba, type(ba))
 print(mv, type(mv))
 
 # -------------------------
-# End of Examples
-# -------------------------
-# -------------------------
 # Python Operators Examples
 # -------------------------
 
@@ -124,6 +121,40 @@ print("p is q ->", p is q)       # False (different objects)
 print("p is r ->", p is r)       # True  (same object)
 print("p is not q ->", p is not q)
 
-# -------------------------
-# End of Examples
-# -------------------------
+# Function to calculate square of a number
+def square(num):
+    return num * num
+
+# Calling the function
+print("Square of 5 is:", square(5))
+print("Square of 9 is:", square(9))
+
+# Dictionary of a student
+student = {
+    "name": "John",
+    "age": 20,
+    "grade": "A"
+}
+
+# Accessing dictionary values
+print("Name:", student["name"])
+print("Age:", student["age"])
+print("Grade:", student["grade"])
+
+# Adding a new key-value
+student["course"] = "Computer Science"
+print("Updated Dictionary:", student)
+
+# For loop example
+print("For loop example:")
+for i in range(1, 6):   # 1 to 5
+    print("Number:", i)
+
+# While loop example
+print("\nWhile loop example:")
+count = 1
+while count <= 5:
+    print("Count:", count)
+    count += 1
+
+
