@@ -124,6 +124,29 @@ print("p is not q ->", p is not q)
 # Function to calculate square of a number
 def square(num):
     return num * num
+# comparision operators examples
+a = 10
+b = 5
+
+print("a == b :", a == b)   # Equal to
+print("a != b :", a != b)   # Not equal to
+print("a > b  :", a > b)    # Greater than
+print("a < b  :", a < b)    # Less than
+print("a >= b :", a >= b)   # Greater than or equal to
+print("a <= b :", a <= b)   # Less than or equal to
+
+
+# if - else -elif conditions 
+marks = 85
+
+if marks >= 90:
+    print("Grade A")
+elif marks >= 75:
+    print("Grade B")
+elif marks >= 60:
+    print("Grade C")
+else:
+    print("Grade D")
 
 # Calling the function
 print("Square of 5 is:", square(5))
@@ -156,5 +179,6 @@ count = 1
 while count <= 5:
     print("Count:", count)
     count += 1
+
 
 
