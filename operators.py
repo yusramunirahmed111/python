@@ -1,0 +1,86 @@
+
+# -------------------------
+# Python Operators Examples
+# -------------------------
+
+a = 10
+b = 3
+
+print("=== 1. Arithmetic Operators ===")
+print("a + b =", a + b)   # Addition
+print("a - b =", a - b)   # Subtraction
+print("a * b =", a * b)   # Multiplication
+print("a / b =", a / b)   # Division
+print("a % b =", a % b)   # Modulus
+print("a ** b =", a ** b) # Exponent (power)
+print("a // b =", a // b) # Floor Division
+
+print("\n=== 2. Assignment Operators ===")
+x = 5
+print("x =", x)
+x += 2   # x = x + 2
+print("x += 2 ->", x)
+x -= 1   # x = x - 1
+print("x -= 1 ->", x)
+x *= 3   # x = x * 3
+print("x *= 3 ->", x)
+x /= 2   # x = x / 2
+print("x /= 2 ->", x)
+x %= 4   # x = x % 4
+print("x %= 4 ->", x)
+x **= 2  # x = x ** 2
+print("x **= 2 ->", x)
+x //= 2  # x = x // 2
+print("x //= 2 ->", x)
+
+print("\n=== 3. Comparison Operators ===")
+print("a == b ->", a == b)
+print("a != b ->", a != b)
+print("a > b  ->", a > b)
+print("a < b  ->", a < b)
+print("a >= b ->", a >= b)
+print("a <= b ->", a <= b)
+
+print("\n=== 4. Logical Operators ===")
+x = True
+y = False
+print("x and y ->", x and y)
+print("x or y  ->", x or y)
+print("not x   ->", not x)
+
+print("\n=== 5. Bitwise Operators ===")
+m = 6   # (binary 110)
+n = 3   # (binary 011)
+print("m & n =", m & n)   # AND
+print("m | n =", m | n)   # OR
+print("m ^ n =", m ^ n)   # XOR
+print("~m    =", ~m)      # NOT (invert bits)
+print("m << 1 =", m << 1) # Left shift
+print("m >> 1 =", m >> 1) # Right shift
+
+print("\n=== 6. Membership Operators ===")
+my_list = [1, 2, 3, 4, 5]
+print("3 in my_list ->", 3 in my_list)
+print("10 not in my_list ->", 10 not in my_list)
+
+print("\n=== 7. Identity Operators ===")
+p = [1, 2, 3]
+q = [1, 2, 3]
+r = p
+print("p is q ->", p is q)       # False (different objects)
+print("p is r ->", p is r)       # True  (same object)
+print("p is not q ->", p is not q)
+
+# Function to calculate square of a number
+def square(num):
+    return num * num
+# comparision operators examples
+a = 10
+b = 5
+
+print("a == b :", a == b)   # Equal to
+print("a != b :", a != b)   # Not equal to
+print("a > b  :", a > b)    # Greater than
+print("a < b  :", a < b)    # Less than
+print("a >= b :", a >= b)   # Greater than or equal to
+print("a <= b :", a <= b)   # Less than or equal to
